@@ -8,14 +8,27 @@ import {
   tailwind,
   mongodb,
   meta,
+  metaverse,
+  gfg,
+  lokesh,
   tesla,
   shopify,
   tripguide,
   threejs,
   techshop,
   cryptowallet,
+  django,
+  website,
   hb,
+  Node,
+  chamber,
+  saiaksharaiyafoods,
+  aims,
+  demand,
+  yoghan,
+  educonnect,
   ulm,
+  raghu,
 } from "../assets";
 
 export const navLinks = [
@@ -28,6 +41,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "project",
+    title: "Projects",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -35,19 +52,30 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Desigs",
     icon: web,
   },
   {
-    title: "React Native & Flutter Developer",
+    title: "Web Application",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Api Development",
     icon: backend,
   },
   {
-    title: "3d Modeller",
+    title: "Mobile Application (React Native, Flutter)",
+    icon: creator,
+  },
+  {
+    title: "Customized Softwares",
+    icon: backend,
+  },
+  {
+    title: "3d Models & Animations",
+    icon: creator,
+  },{
+    title: "AI & ML Solutions",
     icon: creator,
   },
 ];
@@ -62,12 +90,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Node JS",
+    icon: Node,
   },
   {
     name: "MongoDB",
-    icon: mongodb,
+    icon: django,
   },
   {
     name: "Three JS",
@@ -77,59 +105,56 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Full-Stack Developer",
+    company_name: "metaverse",
+    icon: metaverse,
     iconBg: "#383E56",
-    date: "March 2023 - April 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-    ],
-  },
-  {
-    title: "React Native & Flutter Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Specializing in the creation and maintenance of cutting-edge mobile applications through proficient use of React Native and Flutter technologies.",
-      "Working seamlessly within cross-functional teams, encompassing designers, product managers, and fellow developers, to deliver top-notch mobile solutions that meet and exceed client expectations.",
-      "Expertly implementing responsive design principles to ensure optimal user experiences across various devices, while also prioritizing cross-platform compatibility for a seamless application performance."
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Specializing in the development and upkeep of dynamic web applications by leveraging the power of React.js and associated technologies.",
-      "Collaborating seamlessly with cross-functional teams, such as designers, product managers, and fellow developers, to deliver top-tier, user-centric products.",
-      "Proficiently implementing responsive design principles to guarantee an optimal user experience across a variety of devices, and ensuring cross-browser compatibility for a consistent performance."
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
-      "Proficient full-stack developer adept at crafting and maintaining robust web applications using a diverse range of technologies, with a core focus on React.js and related frameworks.",
-      "Collaborating seamlessly within cross-functional teams, engaging with designers, product managers, and fellow developers to deliver high-quality, feature-rich products that align with client needs and industry standards.",
-      "Specializing in the implementation of responsive design strategies to ensure a seamless and enjoyable user experience across various devices, coupled with a strong commitment to cross-browser compatibility for widespread accessibility."
+      "Developing and maintaining web applications using a range of technologies including React.js, Django, and Flask.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Conducting research in Artificial Intelligence with a focus on healthcare applications and Generative Adversarial Networks (GANs).",
+    ],
+  },
+  {
+    title: "Head",
+    company_name: "Greeks for Greeks",
+    icon: gfg,
+    iconBg: "#E6DEDD",
+    date: "Sep 2023 - present",
+    points: [
+      "Organized and managed events aimed at providing students with extensive knowledge and seamless experiences.",
+      "Coordinated with various stakeholders to ensure smooth event execution.",
+      "Conducting workshops on various technologies including React.js, Django, and Flask.",
+    ],
+  },
+  {
+    title: "Project Developer",
+    company_name: "Freelance",
+    icon: lokesh,
+    iconBg: "#383E56",
+    date: "Various",
+    points: [
+      "Developed a website for Karpagam Consultancy.",
+      "Built a website for HACKBOX Startup.",
+      "Created over 6 portfolio websites as a freelancer.",
+      "Developed a membership website for the Indian Chamber of Commerce and Industries.",
+      "Built an Enterprise AIMS Software for Signal and Telecommunications - Southern Railways.",
+      "Created a learning portal for Karpagam Academy of Higher Education.",
+      "Developed a website for Sai Aksharaiya Foods.",
+      "Built a website for IT Company (FortRise).",
     ],
   },
 ];
+
 
 
 const projects = [
   {
     name: "HackBox Website",
     description:
-    "Empower your cybersecurity journey with HackBox, featuring a sleek, animated UI design on our revamped platform tailored for security and service-based solutions.",
+    "Developed a website for HackBox featuring a sleek, animated UI design tailored for security and service-based solutions.",
     tags: [
       {
         name: "react",
@@ -150,7 +175,7 @@ const projects = [
   {
     name: "Ecommerce with ULM",
     description:
-    "Elevate your online retail experience with Ultra-Lightweight Microservices (ULM) architecture for seamless, scalable, and high-performance ecommerce solutions.",
+    "Created an e-commerce platform using Multi Level Marketing (MLM) architecture for scalable and high-performance solutions.",
     tags: [
       {
         name: "React Native",
@@ -166,15 +191,15 @@ const projects = [
       },
     ],
     image: ulm,
-    source_code_link: "https://lokesh-port.netlify.app/",
+    source_code_link: "http://streetmall.com/",
   },
   {
     name: "EduConnect",
     description:
-    "EduConnect: Bridging education seamlessly through a comprehensive mobile app and web development platform, fostering connectivity for your college community.",
+    "Developed EduConnect, a comprehensive platform to bridge education through mobile app and web development, fostering connectivity for college communities.",
     tags: [
       {
-        name: "Flutter",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
@@ -190,9 +215,144 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://lokesh-port.netlify.app/",
+    image: educonnect,
+    source_code_link: "https://github.com/MrLokesh161/edu_app/",
+  },
+  {
+    name: "Membership & Analysis Software - Indian Chamber",
+    description:
+    "Built a membership and analysis software for the Indian Chamber of Commerce and Industries, featuring an advanced UI and comprehensive data analysis tools.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Postgressql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chamber,
+    source_code_link: "https://chambermemberships.lokeshdev.co/",
+  },
+  {
+    name: "AIMS Software - S&T, Indian Railways",
+    description:
+    "Developed AIMS software for Signal and Telecommunications at Indian Railways, enhancing operational efficiency with a robust backend and user-friendly interface.",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Postgressql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aims,
+    source_code_link: "https://aimsportal.netlify.app/",
+  },
+  {
+    name: "Demand Register Website - S&T, Indian Railways",
+    description:
+    "Created a demand register website for Signal and Telecommunications at Indian Railways to streamline demand tracking and management.",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Postgressql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: demand,
+    source_code_link: "https://demandregister.netlify.app/",
+  },
+  {
+    name: "Sai Aksharaiya Foods",
+    description:
+    "Developed a website for Sai Aksharaiya Foods with an emphasis on user-friendly navigation and detailed product information.",
+    tags: [
+      {
+        name: "HTML CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS JQuery",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Postgressql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: saiaksharaiyafoods,
+    source_code_link: "https://saiaksharaiyafoods.com/",
+  },
+  {
+    name: "Yoghan Enterprises",
+    description:
+    "Built a website for Yoghan Enterprises using HTML, CSS, and JQuery to enhance the online presence and user engagement.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JQuery",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: yoghan,
+    source_code_link: "https://yoghan.netlify.app/",
+  },
+  {
+    name: "Portfolio - Hackbox",
+    description:
+    "Created a professional portfolio website for showcasing projects and expertise, using HTML and CSS for clean and responsive design.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: raghu,
+    source_code_link: "https://raghuyashwanth.in/",
   },
 ];
+
 
 export { services, technologies, experiences, projects };

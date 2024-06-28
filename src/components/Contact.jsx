@@ -67,8 +67,8 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
-          ref={formRef}
-          onSubmit={handleSubmit}
+          action="https://formspree.io/f/mdknnrye"
+          method="POST"  
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">

@@ -35,22 +35,26 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
+        <p className={styles.sectionSubText}>About Me</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like js, React, Node.js,
-        Three.js and Django and mobile application frameworks like flutter and react native. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am a skilled Full-Stack Developer with experience in TypeScript and JavaScript, 
+        and expertise in frameworks like React js, Node.js, Three.js, and Django, 
+        as well as mobile application frameworks like Flutter and React Native. 
+        I'm a quick learner and collaborate closely with clients to create efficient, 
+        scalable, and user-friendly solutions that solve real-world problems. 
+        Let's work together to bring your ideas to life!
       </motion.p>
+      <br />
+      <p className={styles.sectionSubText}>Services</p>
+
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
+          <ServiceCard key={service.title} index={index} {...service} />   
         ))}
       </div>
     </>
